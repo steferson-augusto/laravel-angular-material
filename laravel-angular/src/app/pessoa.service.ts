@@ -9,6 +9,7 @@ export interface Pessoa {
   id?: Number,
   name: String,
   cpf?: String,
+  idade: Number,
   created_at?: String,
   updated_at?: String,
 }
