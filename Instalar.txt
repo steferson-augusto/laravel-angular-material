@@ -1,0 +1,14 @@
+Instalação
+
+1 - instalar o Xampp e iniciar serviços "Apache" e "MySQL"
+2 - criar banco de dados chamado "angular"
+2 - instalar o Composer
+3 - fazer download do projeto
+4 - abrir pasta "angular-laravel" e criar arquivo ".env" com as configurações para o banco de dados criado
+5 - abrir pasta "angular-laravel" no terminal e executar os comandos:
+	> composer install
+	> php artisan migrate
+ 	> php artisan serve
+6 - abrir pasta "laravel-angular" no terminal e executar os comandos:
+	> npm i
+	> ng serve
